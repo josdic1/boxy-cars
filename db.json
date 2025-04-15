@@ -1,0 +1,165 @@
+{
+    "vehicles": [
+      {
+        "make": "International Harvester",
+        "model": "Scout",
+        "year": 1970,
+        "manufacturer": "International Harvester",
+        "discontinued": true,
+        "image": "https://www.chicagomotorcars.com/1970-international-harvester-scout-c-5509.htm"
+      },
+      {
+        "make": "Ford",
+        "model": "Bronco",
+        "year": 1970,
+        "manufacturer": "Ford Motor Company",
+        "discontinued": false,
+        "image": "https://www.idealclassiccars.net/vehicles/1425/1970-ford-bronco"
+      },
+      {
+        "make": "Jeep",
+        "model": "Wagoneer",
+        "year": 1970,
+        "manufacturer": "Kaiser Jeep",
+        "discontinued": false,
+        "image": "https://momentcar.com/jeep/1970/jeep-wagoneer/"
+      },
+      {
+        "make": "Land Rover",
+        "model": "Series III",
+        "year": 1971,
+        "manufacturer": "British Leyland",
+        "discontinued": true,
+        "image": "https://www.alamy.com/stock-photo-vintage-1970s-land-rover-series-3-usa-56844042.html"
+      },
+      {
+        "make": "Toyota",
+        "model": "Land Cruiser FJ40",
+        "year": 1970,
+        "manufacturer": "Toyota",
+        "discontinued": false,
+        "image": "https://www.copleywest.com/showroom/1970-toyota-fj40-land-cruiser-for-sale/"
+      },
+      {
+        "make": "Chevrolet",
+        "model": "Blazer K5",
+        "year": 1970,
+        "manufacturer": "General Motors",
+        "discontinued": false,
+        "image": "https://bringatrailer.com/listing/1970-chevrolet-blazer-k5-cst-4x4-22/"
+      },
+      {
+        "make": "GMC",
+        "model": "Jimmy",
+        "year": 1970,
+        "manufacturer": "General Motors",
+        "discontinued": false,
+        "image": "https://classiccars.com/listings/view/963216/1970-gmc-jimmy-for-sale-in-charlotte-north-carolina-28262"
+      },
+      {
+        "make": "Dodge",
+        "model": "Ramcharger",
+        "year": 1974,
+        "manufacturer": "Chrysler",
+        "discontinued": true,
+        "image": "https://repairenginemagee88.z19.web.core.windows.net/1970s-dodge-ramcharger-for-sale.html"
+      },
+      {
+        "make": "Plymouth",
+        "model": "Trailduster",
+        "year": 1977,
+        "manufacturer": "Chrysler",
+        "discontinued": true,
+        "image": "https://www.classic.com/veh/1977-plymouth-trailduster-nQw3Dqp/"
+      },
+      {
+        "make": "Mercedes-Benz",
+        "model": "G-Class (G-Wagen)",
+        "year": 1979,
+        "manufacturer": "Mercedes-Benz",
+        "discontinued": false,
+        "image": "https://silodrome.com/history-mercedes-benz-g-wagon/"
+      },
+      {
+        "make": "Nissan",
+        "model": "Patrol",
+        "year": 1970,
+        "manufacturer": "Nissan",
+        "discontinued": false,
+        "image": "https://classics.autotrader.com/classic-cars-for-sale/1970-nissan-patrol-for-sale"
+      },
+      {
+        "make": "Range Rover",
+        "model": "Classic",
+        "year": 1970,
+        "manufacturer": "Land Rover",
+        "discontinued": false,
+        "image": "https://www.car-revs-daily.com/2015/04/15/1987-range-rover-vogue-se/range-rover-classic-1970-3/"
+      },
+      {
+        "make": "Suzuki",
+        "model": "LJ80",
+        "year": 1977,
+        "manufacturer": "Suzuki",
+        "discontinued": true,
+        "image": "https://silodrome.com/suzuki-jimny-lj80/"
+      },
+      {
+        "make": "Fiat",
+        "model": "Campagnola",
+        "year": 1974,
+        "manufacturer": "Fiat",
+        "discontinued": true,
+        "image": "https://en.wikipedia.org/wiki/Fiat_Campagnola"
+      },
+      {
+        "make": "Ford",
+        "model": "F-150",
+        "year": 1975,
+        "manufacturer": "Ford Motor Company",
+        "discontinued": false,
+        "image": "https://www.streettrucksmag.com/f100-builders/red-ranger-1970-ford-f-150-ranger-lariat/"
+      },
+      {
+        "make": "Chevrolet",
+        "model": "C/K",
+        "year": 1970,
+        "manufacturer": "General Motors",
+        "discontinued": true,
+        "image": "https://www.hemmings.com/stories/2020/06/15/1970-chevrolet-c10-vs-1970-ford-f-100"
+      },
+      {
+        "make": "Dodge",
+        "model": "D Series",
+        "year": 1970,
+        "manufacturer": "Chrysler",
+        "discontinued": true,
+        "image": "https://www.motortrend.com/vehicle-genres/dodge-d-series-history/"
+      },
+      {
+        "make": "Volkswagen",
+        "model": "Type 181 (Thing)",
+        "year": 1973,
+        "manufacturer": "Volkswagen",
+        "discontinued": true,
+        "image": "https://www.motortrend.com/vehicle-genres/1973-1974-volkswagen-thing-history/"
+      },
+      {
+        "make": "Citroën",
+        "model": "Mehari",
+        "year": 1970,
+        "manufacturer": "Citroën",
+        "discontinued": true,
+        "image": "https://en.wikipedia.org/wiki/Citro%C3%ABn_M%C3%A9hari"
+      },
+      {
+        "make": "Renault",
+        "model": "Rodeo",
+        "year": 1970,
+        "manufacturer": "Renault",
+        "discontinued": true,
+        "image": "https://en.wikipedia.org/wiki/Renault_Rod%C3%A9o"
+      }
+    ]
+  }
+  

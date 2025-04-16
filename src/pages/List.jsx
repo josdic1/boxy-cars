@@ -15,6 +15,7 @@ function List() {
         navigate(`/item/${id}`)
     }
 
+    
     const vehicleList = displayList.map(vehicle => (
         <Card 
         key={vehicle.id} 
@@ -41,6 +42,7 @@ return (
         </tr>
     </thead>
     <tbody>
+        
     {vehicleList}
     </tbody>
 </table>

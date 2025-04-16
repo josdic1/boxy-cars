@@ -1,11 +1,12 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, useContext } from "react"
 import VehicleContext from "../contexts/VehicleContext"
-
+import LoaderModeContext from "../contexts/LoaderModeContext"
 
 function VehicleProvider({ children }) {
     const [vehicles, setVehicles] = useState([])
+    const [logos, setLogos ] = useState([])
     const [selVel, setSelVel] = useState({
-        id: "",
+    id: "",
     make: '',
     model: '',
     year: 0,
@@ -14,10 +15,30 @@ function VehicleProvider({ children }) {
     image: ""
     })
 
-    useEffect(() => {
-        fetchVehicles()
-    }, [])
+    const { setIsLoading } = useContext(LoaderModeContext)
 
+    useEffect(() => {
+        const fetchData = async () => {
+          setIsLoading(true)
+      
+          const [vehiclesRes, logosRes] = await Promise.all([
+            fetch('http://localhost:3000/vehicles'),
+            fetch('http://localhost:3000/logos')
+          ])
+      
+          const [vehiclesData, logosData] = await Promise.all([
+            vehiclesRes.json(),
+            logosRes.json()
+          ])
+      
+          setVehicles(vehiclesData)
+          setLogos(logosData)
+      
+          setIsLoading(false)
+        }
+      
+        fetchData()
+      }, [])
 
     async function fetchVehicles() {
         try {
@@ -29,6 +50,18 @@ function VehicleProvider({ children }) {
             setVehicles(data)
         } catch (error) { console.error("❌ Caught error:", error); }
     }
+
+    async function fetchLogos() {
+        try {
+            const r = await fetch(`http://localhost:3000/logos`)
+            if (!r.ok) {
+                throw new Error("💥 Error");
+            }
+            const data = await r.json()
+            setLogos(data)
+        } catch (error) { console.error("❌ Caught error:", error); }
+    }
+
 
     async function updateFavorite(obj) {
         const newObj = {
@@ -56,7 +89,7 @@ function VehicleProvider({ children }) {
     return (
         <>
             <VehicleContext.Provider
-                value={{ vehicles, selVel, setSelVel, updateFavorite }}
+                value={{ vehicles, logos, selVel, setSelVel, updateFavorite }}
             >
                 {children}
             </VehicleContext.Provider>

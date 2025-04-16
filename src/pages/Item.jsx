@@ -5,8 +5,11 @@ import VehicleContext from "../contexts/VehicleContext"
 function Item() {
 
      const {selVel } = useContext(VehicleContext)
+
     const { id } = useParams()
-    console.log(selVel.image)
+    
+      
+
 return (
 <>
 <img src={selVel.image || 'NO'} alt='photo'/>
